@@ -1,3 +1,5 @@
+### Example DDD Projects
+
 [Modular Monolith with DDD](https://github.com/kgrzybek/modular-monolith-with-ddd)
 
 [These are the sample Bounded Contexts from the book "Implementing Domain-Driven Design" by Vaughn Vernon](https://github.com/VaughnVernon/IDDD_Samples)
