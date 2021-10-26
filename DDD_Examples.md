@@ -1,6 +1,9 @@
-### Example DDD Projects
+### DDD Resources
 
+[Awesome DDD Resources](https://github.com/kgrzybek/awesome-ddd)
 [DDD Modelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process)
+
+#### Example DDD Projects
 
 [Modular Monolith with DDD](https://github.com/kgrzybek/modular-monolith-with-ddd)
 
