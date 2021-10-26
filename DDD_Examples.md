@@ -1,10 +1,10 @@
 ### Example DDD Projects
 
-[DDD Moodelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process)
+[DDD Modelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process)
 
 [Modular Monolith with DDD](https://github.com/kgrzybek/modular-monolith-with-ddd)
 
-* Example of [interface passed](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/Modules/UserAccess/Domain/UserRegistrations/UserRegistration.cs) to domain object
+* Example of [interface passed](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/Modules/UserAccess/Domain/UserRegistrations/UserRegistration.cs) to domain object, from [command handler](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/Modules/UserAccess/Application/UserRegistrations/RegisterNewUser/RegisterNewUserCommandHandler.cs)
 
 [These are the sample Bounded Contexts from the book "Implementing Domain-Driven Design" by Vaughn Vernon](https://github.com/VaughnVernon/IDDD_Samples)
 
