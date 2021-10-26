@@ -13,8 +13,8 @@
 - Generally in this project commands return no result, queries produce DTOs from Domain
   - Example of [Domain returning Dto](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/Modules/UserAccess/Application/Users/GetAuthenticatedUser/GetAuthenticatedUserQueryHandler.cs) directly, return by [API](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/API/CompanyName.MyMeetings.API/Modules/UserAccess/AuthenticatedUserController.cs)
 
-[These are the sample Bounded Contexts from the book "Implementing Domain-Driven Design" by Vaughn Vernon](https://github.com/VaughnVernon/IDDD_Samples)
+[Bounded Contexts from "Implementing Domain-Driven Design" by Vaughn Vernon](https://github.com/VaughnVernon/IDDD_Samples)
 
-[This is a project of a library, driven by real business requirements](https://github.com/ddd-by-examples/library)
+[Library Project](https://github.com/ddd-by-examples/library)
 
-[https://github.com/ddd-by-examples/factory](https://github.com/ddd-by-examples/factory)
+[Factory Project](https://github.com/ddd-by-examples/factory)
