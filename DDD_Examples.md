@@ -28,6 +28,7 @@
 #### Repository
 
 [Patron Profile](https://github.com/ddd-by-examples/library/blob/master/src/main/java/io/pillopl/library/lending/patronprofile/infrastructure/PatronProfileReadModel.java)
+[Drinks](https://github.com/odrotbohm/spring-restbucks/blob/main/server/src/main/java/org/springsource/restbucks/drinks/Drinks.java)
 
 #### Aggregate Root
 - [Post about Aggregate Root and Entity](http://scabl.blogspot.com/2015/03/aeddd-5.html)
