@@ -21,6 +21,9 @@
 
 ### Examples Tactical Patterns
 
+- Expressing Patterns in Code
+ - [Type Based](https://github.com/xmolecules/jmolecules#using-the-type-based-model)
+ - [Annotation Based](https://github.com/xmolecules/jmolecules#using-the-annotation-based-model)
 #### Repository
 
 [Patron Profile](https://github.com/ddd-by-examples/library/blob/master/src/main/java/io/pillopl/library/lending/patronprofile/infrastructure/PatronProfileReadModel.java)
