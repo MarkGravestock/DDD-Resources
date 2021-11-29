@@ -55,3 +55,11 @@
 
 #### Events
 - [Domain/Integration](https://codeopinion.com/should-you-publish-domain-events-or-integration-events/)
+
+### Example Architectural Patterns
+
+#### Ports
+- [Port](https://github.com/ddd-by-examples/factory/blob/master/demand-forecasting-model/src/main/java/io/dddbyexamples/factory/demand/forecasting/ProductDemandRepository.java)
+
+#### Adapter
+- [Adapter](https://github.com/ddd-by-examples/factory/blob/master/demand-forecasting-adapters/src/main/java/io/dddbyexamples/factory/demand/forecasting/ProductDemandORMRepository.java)
