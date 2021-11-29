@@ -37,6 +37,12 @@
   - Note shows use of rule that uses query/view 
 - [ProductDemand](https://github.com/ddd-by-examples/factory/blob/master/demand-forecasting-model/src/main/java/io/dddbyexamples/factory/demand/forecasting/ProductDemand.java)
 
+#### Entity
+- [DailyDemand](https://github.com/ddd-by-examples/factory/blob/master/demand-forecasting-model/src/main/java/io/dddbyexamples/factory/demand/forecasting/DailyDemand.java)
+
+#### Value Object
+- [Adjustment](https://github.com/ddd-by-examples/factory/blob/master/demand-forecasting-model/src/main/java/io/dddbyexamples/factory/demand/forecasting/Adjustment.java)
+
 ### Example Implementation Patterns
 
 #### Read Model
