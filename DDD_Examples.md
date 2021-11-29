@@ -40,4 +40,7 @@
 
 #### Module
 - [MeetingsStartup](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/Modules/Meetings/Infrastructure/Configuration/MeetingsStartup.cs)
-  - Includes Composition Root 
+  - Includes Composition Root
+
+#### Events
+- [Domain/Integration](https://codeopinion.com/should-you-publish-domain-events-or-integration-events/)
