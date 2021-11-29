@@ -31,3 +31,9 @@
 - [Meeting Group](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/Modules/Meetings/Domain/MeetingGroups/MeetingGroup.cs)
 - [User Registration](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/Modules/UserAccess/Domain/UserRegistrations/UserRegistration.cs)
   - Note shows use of rule that uses query/view 
+
+### Example Implementation Patterns
+
+#### Read Model
+
+- [AuthenticatedUserQueryHandle](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/Modules/UserAccess/Application/Users/GetAuthenticatedUser/GetAuthenticatedUserQueryHandler.cs)
