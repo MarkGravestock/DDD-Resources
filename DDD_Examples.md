@@ -18,3 +18,9 @@
 [Library Project](https://github.com/ddd-by-examples/library)
 
 [Factory Project](https://github.com/ddd-by-examples/factory)
+
+### Examples Tactical Patterns
+
+# Repository
+
+[Patron Profile](https://github.com/ddd-by-examples/library/blob/master/src/main/java/io/pillopl/library/lending/patronprofile/infrastructure/PatronProfileReadModel.java)
