@@ -35,6 +35,7 @@ See Blue Book pg 147
 #### Aggregate Root
 
 See Blue Book pg 125
+Red Book Ch 10
 
 - [Post about Aggregate Root and Entity](http://scabl.blogspot.com/2015/03/aeddd-5.html)
 - [Order](https://github.com/odrotbohm/spring-restbucks/blob/main/server/src/main/java/org/springsource/restbucks/order/Order.java)
