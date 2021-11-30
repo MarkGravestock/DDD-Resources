@@ -27,10 +27,15 @@
 
 #### Repository
 
+See Blue Book pg 147
+
 [Patron Profile](https://github.com/ddd-by-examples/library/blob/master/src/main/java/io/pillopl/library/lending/patronprofile/infrastructure/PatronProfileReadModel.java)
 [Drinks](https://github.com/odrotbohm/spring-restbucks/blob/main/server/src/main/java/org/springsource/restbucks/drinks/Drinks.java)
 
 #### Aggregate Root
+
+See Blue Book pg 125
+
 - [Post about Aggregate Root and Entity](http://scabl.blogspot.com/2015/03/aeddd-5.html)
 - [Order](https://github.com/odrotbohm/spring-restbucks/blob/main/server/src/main/java/org/springsource/restbucks/order/Order.java)
   - Note also shows Jmolecules
@@ -40,9 +45,15 @@
 - [ProductDemand](https://github.com/ddd-by-examples/factory/blob/master/demand-forecasting-model/src/main/java/io/dddbyexamples/factory/demand/forecasting/ProductDemand.java)
 
 #### Entity
+
+See Blue Book pg 89
+
 - [DailyDemand](https://github.com/ddd-by-examples/factory/blob/master/demand-forecasting-model/src/main/java/io/dddbyexamples/factory/demand/forecasting/DailyDemand.java)
 
 #### Value Object
+
+See Blue Book pg 97
+
 - [Adjustment](https://github.com/ddd-by-examples/factory/blob/master/demand-forecasting-model/src/main/java/io/dddbyexamples/factory/demand/forecasting/Adjustment.java)
 
 ### Example Implementation Patterns
