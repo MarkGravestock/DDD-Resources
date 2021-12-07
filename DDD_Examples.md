@@ -4,6 +4,8 @@
 
 [DDD Modelling Process](https://github.com/ddd-crew/ddd-starter-modelling-process)
 
+[Virtual DDD]()
+
 #### Example DDD Projects
 
 [Modular Monolith with DDD](https://github.com/kgrzybek/modular-monolith-with-ddd)
@@ -18,6 +20,10 @@
 [Library Project](https://github.com/ddd-by-examples/library)
 
 [Factory Project](https://github.com/ddd-by-examples/factory)
+
+### Strategic Patterns
+
+#### Bounded Context
 
 ### Examples Tactical Patterns
 
@@ -77,3 +83,11 @@ See Blue Book pg 97
 
 #### Adapter
 - [Adapter](https://github.com/ddd-by-examples/factory/blob/master/demand-forecasting-adapters/src/main/java/io/dddbyexamples/factory/demand/forecasting/ProductDemandORMRepository.java)
+
+#### Command
+
+- [Command](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/API/CompanyName.MyMeetings.API/Modules/Meetings/MeetingGroups/MeetingGroupsController.cs)
+
+#### Query
+
+- [Query](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/API/CompanyName.MyMeetings.API/Modules/Meetings/MeetingGroups/MeetingGroupsController.cs)
