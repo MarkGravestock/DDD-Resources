@@ -25,6 +25,8 @@
 
 #### Bounded Context
 
+- Some discusion [here](https://github.com/ddd-by-examples/library/blob/master/docs/big-picture.md) and [here](https://github.com/kgrzybek/modular-monolith-with-ddd#31-high-level-view)
+
 ### Examples Tactical Patterns
 
 - Expressing Patterns in Code
