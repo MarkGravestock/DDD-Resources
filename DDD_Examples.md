@@ -8,18 +8,65 @@
 
 #### Example DDD Projects
 
-[Modular Monolith with DDD](https://github.com/kgrzybek/modular-monolith-with-ddd)
+##### Highly Recommended by DDD Experts
 
-- Uses CQRS by splitting [Read/Write](https://www.kamilgrzybek.com/design/simple-cqrs-implementation-with-raw-sql-and-ddd/)
+[eShop by Microsoft](https://github.com/dotnet/eShop)
+- E-commerce microservices reference showcasing .NET with ordering service implementing 3 DDD layers (Application, Domain, Infrastructure)
+- Demonstrates simplified CQRS approach separating commands/queries with same database, using Dapper for query performance
+- Official .NET architecture guidance example with bounded contexts, aggregates, value objects, and domain events
+
+[DDD Sample - Cargo Shipping](https://github.com/citerus/dddsample-core)
+- Joint effort by Eric Evans' Domain Language and Citerus demonstrating practical implementation of DDD building block patterns
+- Well-documented cargo tracking system illustrating aggregates, bounded contexts, and tactical patterns from the Blue Book
+- One of few complete, non-trivial DDD examples with implementations in multiple languages (Java, .NET, PHP, Ruby)
+
+[CQRS Journey by Microsoft Patterns & Practices](https://github.com/microsoftarchive/cqrs-journey)
+- Learning journey documenting team's experience building conference management system with CQRS and Event Sourcing
+- Complete working reference implementation with extensive guide covering design decisions, trade-offs, and implementation patterns
+- Focuses on high scalability and availability using Azure Service Bus, includes case studies from other teams
+
+[Confab by DevMentors](https://github.com/devmentors/Confab)
+- Conference management modular monolith in .NET 5.0 with different architectural styles per module (CRUD, CQRS, Clean, DDD)
+- Modules integrate via event-driven architecture using local contracts approach, demonstrating bounded context independence
+- Uses PostgreSQL with EF Core, includes Blazor frontend, reference project for DevMentors' modular monolith course
+
+[Spring Modulith](https://github.com/spring-projects/spring-modulith)
+- Opinionated toolkit for domain-driven modular Spring Boot apps enforcing Vaughn Vernon's aggregate design rules (boundaries, events, identifiers)
+- Provides module structure verification, integration testing, observability, and automatic documentation generation
+- Supports asynchronous communication via domain events with explicit architectural concepts using jMolecules
+
+[Axon Framework](https://github.com/AxonFramework/AxonFramework)
+- JVM framework for event-driven microservices implementing DDD, CQRS, and Event Sourcing with minimal boilerplate code
+- Provides APIs for commands, aggregates, events, queries, and sagas with Axon Server for event store and message routing
+- Includes comprehensive documentation, whitepapers, academy courses, and sample applications for complex business scenarios
+
+##### Community-Vetted Examples
+
+[Modular Monolith with DDD](https://github.com/kgrzybek/modular-monolith-with-ddd)
+- Production-ready .NET application with DDD tactical patterns, Event Sourcing, and CQRS by splitting [Read/Write](https://www.kamilgrzybek.com/design/simple-cqrs-implementation-with-raw-sql-and-ddd/)
 - Example of [interface passed](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/Modules/UserAccess/Domain/UserRegistrations/UserRegistration.cs) to domain object, from [command handler](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/Modules/UserAccess/Application/UserRegistrations/RegisterNewUser/RegisterNewUserCommandHandler.cs)
-- Generally in this project commands return no result, queries produce DTOs from Domain
-  - Example of [Domain returning Dto](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/Modules/UserAccess/Application/Users/GetAuthenticatedUser/GetAuthenticatedUserQueryHandler.cs) directly, return by [API](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/API/CompanyName.MyMeetings.API/Modules/UserAccess/AuthenticatedUserController.cs)
+- Commands return no result, queries produce DTOs - [Domain returning Dto](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/Modules/UserAccess/Application/Users/GetAuthenticatedUser/GetAuthenticatedUserQueryHandler.cs) returned by [API](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/API/CompanyName.MyMeetings.API/Modules/UserAccess/AuthenticatedUserController.cs)
+- Extensive testing with [NetArchTest](https://github.com/kgrzybek/modular-monolith-with-ddd/tree/master/src/Tests/ArchTests) validating architecture, includes [C4 diagrams](https://github.com/kgrzybek/modular-monolith-with-ddd#31-high-level-view), Event Storming models, and [ADR docs](https://github.com/kgrzybek/modular-monolith-with-ddd/tree/master/docs/architecture-decision-log)
 
 [Bounded Contexts from "Implementing Domain-Driven Design" by Vaughn Vernon](https://github.com/VaughnVernon/IDDD_Samples)
+- Companion code for Vernon's "Red Book" (IDDD)
+- Authoritative examples from one of DDD's leading practitioners
+- Demonstrates advanced tactical patterns and bounded context integration
 
 [Library Project](https://github.com/ddd-by-examples/library)
+- Library management system with Event Storming, User Story Mapping, and BDD applied from inception - see [big picture documentation](https://github.com/ddd-by-examples/library/blob/master/docs/big-picture.md)
+- Two bounded contexts: catalogue using CRUD, lending using domain model with hexagonal architecture
+- Demonstrates mixed persistence strategies - [PatronProfile repository](https://github.com/ddd-by-examples/library/blob/master/src/main/java/io/pillopl/library/lending/patronprofile/infrastructure/PatronProfileReadModel.java) using plain SQL with JdbcTemplate and Spring Data JDBC
 
 [Factory Project](https://github.com/ddd-by-examples/factory)
+- Complete Spring-based enterprise application separating simple CRUD operations from complex domain logic in demand forecasting
+- Implements hexagonal architecture - [ProductDemand aggregate](https://github.com/ddd-by-examples/factory/blob/master/demand-forecasting-model/src/main/java/io/dddbyexamples/factory/demand/forecasting/ProductDemand.java), [DailyDemand entity](https://github.com/ddd-by-examples/factory/blob/master/demand-forecasting-model/src/main/java/io/dddbyexamples/factory/demand/forecasting/DailyDemand.java), [Adjustment value object](https://github.com/ddd-by-examples/factory/blob/master/demand-forecasting-model/src/main/java/io/dddbyexamples/factory/demand/forecasting/Adjustment.java)
+- Model Exploration Whirlpool approach building Ubiquitous Language with executable Domain Model and Domain Stories
+
+[Spring RESTBucks by Oliver Drotbohm](https://github.com/odrotbohm/spring-restbucks)
+- REST in Practice reference implementation showcasing hypermedia-based API with DDD patterns over a decade of evolution
+- Demonstrates aggregates as REST resource boundaries - [Order aggregate](https://github.com/odrotbohm/spring-restbucks/blob/main/server/src/main/java/org/springsource/restbucks/order/Order.java), [Drinks repository](https://github.com/odrotbohm/spring-restbucks/blob/main/server/src/main/java/org/springsource/restbucks/drinks/Drinks.java) with consistency guarantees matching HTTP semantics
+- Integrates jMolecules for expressing DDD building blocks in code, frequently referenced in Spring and DDD conferences
 
 ### Strategic Patterns
 
