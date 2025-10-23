@@ -8,6 +8,46 @@
 
 #### Example DDD Projects
 
+##### Highly Recommended by DDD Experts
+
+[eShopOnContainers by Microsoft](https://github.com/dotnet-architecture/eShopOnContainers)
+- Reference microservices architecture using .NET and Docker
+- Implements DDD, CQRS, and Event Sourcing patterns
+- Widely cited by industry experts and Microsoft's official .NET architecture guidance
+- Demonstrates bounded contexts in a real-world e-commerce scenario
+
+[DDD Sample - Cargo Shipping](https://github.com/citerus/dddsample-core)
+- The original DDD sample application from Eric Evans' community
+- Classic example frequently referenced in DDD literature
+- Demonstrates core DDD concepts in a shipping/cargo tracking domain
+- Java-based implementation with clear bounded context separation
+
+[CQRS Journey by Microsoft Patterns & Practices](https://github.com/microsoftarchive/cqrs-journey)
+- Comprehensive guide to CQRS and Event Sourcing with DDD
+- Developed by Microsoft patterns & practices team
+- Includes extensive documentation and real-world case study (conference management system)
+- Highly educational with detailed exploration of design decisions
+
+[Full Modular Monolith by DevMentors](https://github.com/devmentors/Modular.Monolith)
+- Modern .NET implementation of modular monolith architecture
+- Strong focus on DDD tactical patterns and clean architecture
+- Excellent example of module boundaries as bounded contexts
+- Active maintenance and community support
+
+[Spring Modulith Examples](https://github.com/spring-projects/spring-modulith)
+- Official Spring project for building modular monolithic applications
+- Demonstrates DDD concepts within Spring ecosystem
+- Strong support for domain events and bounded context verification
+- Recommended by Spring team and DDD practitioners
+
+[Axon Framework Reference Guide Examples](https://github.com/AxonFramework/AxonFramework)
+- Leading event-driven microservices framework with DDD support
+- Comprehensive examples of CQRS, Event Sourcing, and Saga patterns
+- Strong community and endorsement from DDD practitioners
+- Includes sample applications demonstrating complex business scenarios
+
+##### Community-Vetted Examples
+
 [Modular Monolith with DDD](https://github.com/kgrzybek/modular-monolith-with-ddd)
 
 - Uses CQRS by splitting [Read/Write](https://www.kamilgrzybek.com/design/simple-cqrs-implementation-with-raw-sql-and-ddd/)
@@ -16,10 +56,19 @@
   - Example of [Domain returning Dto](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/Modules/UserAccess/Application/Users/GetAuthenticatedUser/GetAuthenticatedUserQueryHandler.cs) directly, return by [API](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/API/CompanyName.MyMeetings.API/Modules/UserAccess/AuthenticatedUserController.cs)
 
 [Bounded Contexts from "Implementing Domain-Driven Design" by Vaughn Vernon](https://github.com/VaughnVernon/IDDD_Samples)
+- Companion code for Vernon's "Red Book" (IDDD)
+- Authoritative examples from one of DDD's leading practitioners
+- Demonstrates advanced tactical patterns and bounded context integration
 
 [Library Project](https://github.com/ddd-by-examples/library)
 
 [Factory Project](https://github.com/ddd-by-examples/factory)
+
+[Spring RESTBucks by Oliver Drotbohm](https://github.com/odrotbohm/spring-restbucks)
+- Created by Oliver Drotbohm (Spring Data lead and DDD advocate)
+- Demonstrates DDD with REST APIs using Spring
+- Excellent example of aggregates, repositories, and domain events
+- Frequently referenced in conference talks and DDD workshops
 
 ### Strategic Patterns
 
