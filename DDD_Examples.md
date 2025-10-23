@@ -11,40 +11,34 @@
 ##### Highly Recommended by DDD Experts
 
 [eShop by Microsoft](https://github.com/dotnet/eShop)
-- Reference microservices architecture using .NET and Docker (successor to eShopOnContainers)
-- Implements DDD, CQRS, and Event Sourcing patterns
-- Widely cited by industry experts and Microsoft's official .NET architecture guidance
-- Demonstrates bounded contexts in a real-world e-commerce scenario
+- E-commerce microservices reference showcasing .NET with ordering service implementing 3 DDD layers (Application, Domain, Infrastructure)
+- Demonstrates simplified CQRS approach separating commands/queries with same database, using Dapper for query performance
+- Official .NET architecture guidance example with bounded contexts, aggregates, value objects, and domain events
 
 [DDD Sample - Cargo Shipping](https://github.com/citerus/dddsample-core)
-- The original DDD sample application from Eric Evans' community
-- Classic example frequently referenced in DDD literature
-- Demonstrates core DDD concepts in a shipping/cargo tracking domain
-- Java-based implementation with clear bounded context separation
+- Joint effort by Eric Evans' Domain Language and Citerus demonstrating practical implementation of DDD building block patterns
+- Well-documented cargo tracking system illustrating aggregates, bounded contexts, and tactical patterns from the Blue Book
+- One of few complete, non-trivial DDD examples with implementations in multiple languages (Java, .NET, PHP, Ruby)
 
 [CQRS Journey by Microsoft Patterns & Practices](https://github.com/microsoftarchive/cqrs-journey)
-- Comprehensive guide to CQRS and Event Sourcing with DDD
-- Developed by Microsoft patterns & practices team
-- Includes extensive documentation and real-world case study (conference management system)
-- Highly educational with detailed exploration of design decisions
+- Learning journey documenting team's experience building conference management system with CQRS and Event Sourcing
+- Complete working reference implementation with extensive guide covering design decisions, trade-offs, and implementation patterns
+- Focuses on high scalability and availability using Azure Service Bus, includes case studies from other teams
 
 [Confab by DevMentors](https://github.com/devmentors/Confab)
-- Conference management system built as a modular monolith in .NET
-- Reference project demonstrating CQRS, Clean Architecture, and DDD
-- Excellent example of module boundaries as bounded contexts
-- Part of DevMentors' comprehensive modular monolith course
+- Conference management modular monolith in .NET 5.0 with different architectural styles per module (CRUD, CQRS, Clean, DDD)
+- Modules integrate via event-driven architecture using local contracts approach, demonstrating bounded context independence
+- Uses PostgreSQL with EF Core, includes Blazor frontend, reference project for DevMentors' modular monolith course
 
-[Spring Modulith Examples](https://github.com/spring-projects/spring-modulith)
-- Official Spring project for building modular monolithic applications
-- Demonstrates DDD concepts within Spring ecosystem
-- Strong support for domain events and bounded context verification
-- Recommended by Spring team and DDD practitioners
+[Spring Modulith](https://github.com/spring-projects/spring-modulith)
+- Opinionated toolkit for domain-driven modular Spring Boot apps enforcing Vaughn Vernon's aggregate design rules (boundaries, events, identifiers)
+- Provides module structure verification, integration testing, observability, and automatic documentation generation
+- Supports asynchronous communication via domain events with explicit architectural concepts using jMolecules
 
-[Axon Framework Reference Guide Examples](https://github.com/AxonFramework/AxonFramework)
-- Leading event-driven microservices framework with DDD support
-- Comprehensive examples of CQRS, Event Sourcing, and Saga patterns
-- Strong community and endorsement from DDD practitioners
-- Includes sample applications demonstrating complex business scenarios
+[Axon Framework](https://github.com/AxonFramework/AxonFramework)
+- JVM framework for event-driven microservices implementing DDD, CQRS, and Event Sourcing with minimal boilerplate code
+- Provides APIs for commands, aggregates, events, queries, and sagas with Axon Server for event store and message routing
+- Includes comprehensive documentation, whitepapers, academy courses, and sample applications for complex business scenarios
 
 ##### Community-Vetted Examples
 
@@ -65,10 +59,9 @@
 [Factory Project](https://github.com/ddd-by-examples/factory)
 
 [Spring RESTBucks by Oliver Drotbohm](https://github.com/odrotbohm/spring-restbucks)
-- Created by Oliver Drotbohm (Spring Data lead and DDD advocate)
-- Demonstrates DDD with REST APIs using Spring
-- Excellent example of aggregates, repositories, and domain events
-- Frequently referenced in conference talks and DDD workshops
+- REST in Practice reference implementation showcasing hypermedia-based API with DDD patterns over a decade of evolution
+- Demonstrates aggregates as REST resource boundaries with consistency guarantees matching HTTP semantics
+- Integrates jMolecules for expressing DDD building blocks in code, frequently referenced in Spring and DDD conferences
 
 ### Strategic Patterns
 
