@@ -8,8 +8,6 @@
 
 #### Example DDD Projects
 
-##### Highly Recommended by DDD Experts
-
 [eShop by Microsoft](https://github.com/dotnet/eShop)
 - E-commerce microservices reference showcasing .NET with ordering service implementing 3 DDD layers (Application, Domain, Infrastructure)
 - Demonstrates simplified CQRS approach separating commands/queries with same database, using Dapper for query performance
@@ -39,8 +37,6 @@
 - JVM framework for event-driven microservices implementing DDD, CQRS, and Event Sourcing with minimal boilerplate code
 - Provides APIs for commands, aggregates, events, queries, and sagas with Axon Server for event store and message routing
 - Includes comprehensive documentation, whitepapers, academy courses, and sample applications for complex business scenarios
-
-##### Community-Vetted Examples
 
 [Modular Monolith with DDD](https://github.com/kgrzybek/modular-monolith-with-ddd)
 - Production-ready .NET application with DDD tactical patterns, Event Sourcing, and CQRS by splitting [Read/Write](https://www.kamilgrzybek.com/design/simple-cqrs-implementation-with-raw-sql-and-ddd/)
