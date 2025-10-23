@@ -10,8 +10,8 @@
 
 ##### Highly Recommended by DDD Experts
 
-[eShopOnContainers by Microsoft](https://github.com/dotnet-architecture/eShopOnContainers)
-- Reference microservices architecture using .NET and Docker
+[eShop by Microsoft](https://github.com/dotnet/eShop)
+- Reference microservices architecture using .NET and Docker (successor to eShopOnContainers)
 - Implements DDD, CQRS, and Event Sourcing patterns
 - Widely cited by industry experts and Microsoft's official .NET architecture guidance
 - Demonstrates bounded contexts in a real-world e-commerce scenario
@@ -28,11 +28,11 @@
 - Includes extensive documentation and real-world case study (conference management system)
 - Highly educational with detailed exploration of design decisions
 
-[Full Modular Monolith by DevMentors](https://github.com/devmentors/Modular.Monolith)
-- Modern .NET implementation of modular monolith architecture
-- Strong focus on DDD tactical patterns and clean architecture
+[Confab by DevMentors](https://github.com/devmentors/Confab)
+- Conference management system built as a modular monolith in .NET
+- Reference project demonstrating CQRS, Clean Architecture, and DDD
 - Excellent example of module boundaries as bounded contexts
-- Active maintenance and community support
+- Part of DevMentors' comprehensive modular monolith course
 
 [Spring Modulith Examples](https://github.com/spring-projects/spring-modulith)
 - Official Spring project for building modular monolithic applications
