@@ -43,11 +43,9 @@
 ##### Community-Vetted Examples
 
 [Modular Monolith with DDD](https://github.com/kgrzybek/modular-monolith-with-ddd)
-
-- Uses CQRS by splitting [Read/Write](https://www.kamilgrzybek.com/design/simple-cqrs-implementation-with-raw-sql-and-ddd/)
-- Example of [interface passed](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/Modules/UserAccess/Domain/UserRegistrations/UserRegistration.cs) to domain object, from [command handler](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/Modules/UserAccess/Application/UserRegistrations/RegisterNewUser/RegisterNewUserCommandHandler.cs)
-- Generally in this project commands return no result, queries produce DTOs from Domain
-  - Example of [Domain returning Dto](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/Modules/UserAccess/Application/Users/GetAuthenticatedUser/GetAuthenticatedUserQueryHandler.cs) directly, return by [API](https://github.com/kgrzybek/modular-monolith-with-ddd/blob/master/src/API/CompanyName.MyMeetings.API/Modules/UserAccess/AuthenticatedUserController.cs)
+- Production-ready .NET application showcasing modular monolith with DDD tactical patterns, Event Sourcing, and CQRS
+- Extensive testing with NetArchTest library validating architecture, layering, dependencies, encapsulation, and DDD implementation
+- Includes C4 architecture diagrams, Event Storming models, ADR documentation, and both unit/integration tests
 
 [Bounded Contexts from "Implementing Domain-Driven Design" by Vaughn Vernon](https://github.com/VaughnVernon/IDDD_Samples)
 - Companion code for Vernon's "Red Book" (IDDD)
@@ -55,8 +53,14 @@
 - Demonstrates advanced tactical patterns and bounded context integration
 
 [Library Project](https://github.com/ddd-by-examples/library)
+- Library management system with Event Storming, User Story Mapping, and BDD applied from inception
+- Two bounded contexts (catalogue using CRUD, lending using domain model with hexagonal architecture)
+- Demonstrates mixed persistence strategies using plain SQL with JdbcTemplate and Spring Data JDBC
 
 [Factory Project](https://github.com/ddd-by-examples/factory)
+- Complete Spring-based enterprise application separating simple CRUD operations from complex domain logic
+- Implements hexagonal architecture with Application Services as ports and domain model for business processing
+- Model Exploration Whirlpool approach building Ubiquitous Language with executable Domain Model and Domain Stories
 
 [Spring RESTBucks by Oliver Drotbohm](https://github.com/odrotbohm/spring-restbucks)
 - REST in Practice reference implementation showcasing hypermedia-based API with DDD patterns over a decade of evolution
